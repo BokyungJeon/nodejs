@@ -1,15 +1,17 @@
 {
-  "name": "1-start",
+  "name": "8-useful-internal",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.0.0-alpha.8"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
   }
 }
