@@ -2,10 +2,10 @@ import express from 'express';
 
 const router = express.Router();
 
-router.use((req, res, next) => {
-  console.log('middleware for users!');
-  next();
-});
+// router.use((req, res, next) => {
+//   console.log('middleware for users!');
+//   next();
+// });
 
 router.get('/', (req, res) => {
   res.status(201).send('GET: /users');
