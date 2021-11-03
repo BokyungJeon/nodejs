@@ -17,8 +17,8 @@ const app = express();
 //   next();
 // });
 
-// 위처럼 일일이 설정하는 대신 npm i cors로 cors를 사용하면 간단히 설정할 수 있다.
-// 옵션을 안쓰면 app.use(cors()); 모든 ip의 접근을 허용
+// 위처럼 일일이 설정하는 대신 npm i cors로 cors 모듈을 사용해 간단히 설정할 수 있다.
+// 옵션을 안쓰면 app.use(cors()); 모든 IP의 접근을 허용
 app.use(
   cors({
     origin: ["http://127.0.0.1:5500"], // 우리가 베포한 클라이언트만 데이터 받을 수 있도록 지정
